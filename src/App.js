@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import background from './DSC00207.JPG';
+import background from './cat.JPG';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
     return (
         <div className="App">
 	    <p className="Hello World!">
-			Hello? This is world.</p>
+			Hello World!</p>
         <header className="App-header">
 			<img src={background} className="App-background" alt="background" />
         </header>
